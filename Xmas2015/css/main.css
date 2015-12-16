@@ -1,0 +1,19 @@
+div.overlap > img {
+	position: absolute;
+	left: 0;
+
+	transition: opacity 2s ease-in-out;
+	-webkit-transition: opacity 2s ease-in-out;
+	-o-transition: opacity 2s ease-in-out;
+	-moz-transition: opacity 2s ease-in-out;
+}
+
+.transparent {
+	opacity: 0
+}
+
+.center {
+	text-align: center;
+	margin-left: auto;
+	margin-top: auto;
+}
